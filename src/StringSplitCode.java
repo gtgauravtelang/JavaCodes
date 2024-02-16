@@ -1,7 +1,7 @@
 public class StringSplitCode {
     public static void main(String[] args)
     {
-        String str1 = "This is my world local change";
+        String str1 = "This is my world local change++";
         String[] arraystring;
 
         arraystring = str1.split(" ");
