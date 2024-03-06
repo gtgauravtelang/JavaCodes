@@ -5,7 +5,7 @@ public class RemoveDuplicateStr
 {
     public void IntDupRemOrder()
     {
-        int[] array = {1, 2, 10, 5, 7, 9, 2, 6, 5, 1};
+        int[] array = {1, 2, 10, 5, 7, 9, 2, 6, 5, 1, 3};
         System.out.print("Original Integers:[");
         for(int i=0;i<array.length;i++)
         {
