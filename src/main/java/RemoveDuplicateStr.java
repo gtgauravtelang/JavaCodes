@@ -1,7 +1,7 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class removeDuplicateStr
+public class RemoveDuplicateStr
 {
     public void IntDupRemOrder()
     {
@@ -48,7 +48,7 @@ public class removeDuplicateStr
     }
     public static void main(String[] args)
     {
-        removeDuplicateStr obj = new removeDuplicateStr();
+        RemoveDuplicateStr obj = new RemoveDuplicateStr();
         obj.IntDupRemOrder();
         obj.charRemDep();
         obj.strRemDep();
