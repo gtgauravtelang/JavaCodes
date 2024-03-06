@@ -26,6 +26,7 @@ public class ExcelReaderCode {
         Sheet sh = wb.getSheet("Sheet1");
         int rows = sh.getLastRowNum();
         int cols = sh.getRow(0).getLastCellNum();
+        int cols2 = sh.getRow(0).getLastCellNum();
 
         System.out.println("Rows: "+rows+", Cols: "+cols);
         for (int i=0; i<=rows ; i++)
