@@ -29,6 +29,7 @@ public class ExcelReaderCode {
         //This is my changes
         int cols = sh.getRow(0).getLastCellNum();
         int cols2 = sh.getRow(0).getLastCellNum();
+        //
 
         System.out.println("Rows: "+rows+", Cols: "+cols);
         for (int i=0; i<=rows ; i++)
