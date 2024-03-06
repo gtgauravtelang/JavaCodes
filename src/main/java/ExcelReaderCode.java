@@ -25,6 +25,8 @@ public class ExcelReaderCode {
         Workbook wb = WorkbookFactory.create(fileX);
         Sheet sh = wb.getSheet("Sheet1");
         int rows = sh.getLastRowNum();
+        int cols1 = sh.getRow(0).getLastCellNum();
+        //This is my changes
         int cols = sh.getRow(0).getLastCellNum();
         int cols2 = sh.getRow(0).getLastCellNum();
 
